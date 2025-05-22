@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscribe - F**K YOU GMAIL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fuckyou.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Wait! Consider Pausing Instead</h1>
+        <p>You can pause your summaries instead of unsubscribing.</p>
+        <form method="post">
+            <button name="pause_duration" value="1 week">Pause for 1 week</button>
+            <button name="pause_duration" value="1 month">Pause for 1 month</button>
+            <button name="pause_duration" value="unsubscribe">Unsubscribe Anyway</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+  font-family: 'Metal Mania', sans-serif; /* Aggressive metallic font */
+  background-color: #000000; /* Pitch black background */
+  color: #ff0000; /* Blood red text for maximum aggression */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full height of the viewport */
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ff4500; /* Fiery red for a bold, aggressive header */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Wide spacing for added intensity */
+  text-shadow: 3px 3px 10px #ff0000; /* Ominous red glow */
+}
+
+p {
+  font-size: 1.5em;
+  color: #dddddd; /* Faded grey for a worn-out dystopian look */
+  margin-bottom: 20px;
+  line-height: 1.5em;
+  padding: 0 20px;
+}
+
+/* Center content vertically and horizontally */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222222; /* Dark grey container for a menacing feel */
+  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.5); /* Intense red glow */
+  border-radius: 8px;
+  text-align: left;
+  border: 2px solid #ff0000; /* Sharp red border for aggression */
+}
+
+/* Button styles */
+button {
+  background-color: #ff4500; /* Intense orange-red button */
+  color: #000; /* Black text for contrast */
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  width: 100%; /* Full-width button for power */
+  text-transform: uppercase; /* Aggressive uppercase button text */
+}
+
+button:hover {
+  background-color: #8b0000; /* Dark red hover effect for menace */
+}
+
+/* Input and Textarea Styles */
+input[type="time"], select, textarea {
+  padding: 10px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid #ff0000; /* Aggressive red border */
+  background-color: #111111; /* Dark input background */
+  color: #ff0000; /* Red text inside inputs for that intense feel */
+  width: 100%;
+  box-sizing: border-box;
+  resize: none; /* Disable resizing for textarea */
+}
+
+/* Focused input/textarea styles */
+input[type="time"]:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #ff4500; /* Intense red-orange focus */
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.8); /* Fiery glow on focus */
+}
+
+/* Form Spacing */
+form {
+  margin-top: 20px;
+}
+
+/* Links */
+a {
+  color: #ff4500; /* Red links for intensity */
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer or small copy */
+footer {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #888; /* Subtle grey footer text */
+}

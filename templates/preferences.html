@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Summarizer - Preferences</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Set Your Email Summary Preferences</h1>
+        <form method="POST">
+            <!-- Summary Time -->
+            <h2>When would you like to receive the summary?</h2>
+            <button type="submit" name="summary_time" value="morning" class="big-button">Morning</button>
+            <button type="submit" name="summary_time" value="afternoon" class="big-button">Afternoon</button>
+            <button type="submit" name="summary_time" value="evening" class="big-button">Evening</button>
+        </form>
+    </div>
+</body>
+</html>

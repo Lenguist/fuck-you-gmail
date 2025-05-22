@@ -1,0 +1,7 @@
+__pycache__
+token.pickle
+emails
+credentials.json
+summaries
+send-archive.py
+flask-app/config.py

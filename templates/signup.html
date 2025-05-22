@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Summarizer - Sign Up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign In to Email Summarizer</h1>
+        <p>We never save your emails. We process them, generate summaries, and delete everything securely.</p>
+        <a href="/terms-of-service">Terms of Service</a>
+        <form action="/signup" method="POST">
+            <button type="submit">Sign in with Google</button>
+        </form>
+    </div>
+</body>
+</html>
